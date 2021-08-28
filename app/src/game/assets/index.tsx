@@ -17,6 +17,9 @@ export interface SpritesheetAsset extends Asset {
 }
 
 export const BG = 'bg';
+export const BORDER = 'border'
+export const PORTAL_LAYER = 'portal_layer'
+export const SPACE_BG = 'space_bg'
 export const FULLSCREEN = 'fullscreen';
 export const LEFT_CHEVRON = 'left_chevron';
 export const CLICK = 'click';
@@ -26,6 +29,21 @@ export const assets: Array<Asset | SpritesheetAsset> = [
   {
     key: BG,
     src: 'assets/images/bg.png',
+    type: 'IMAGE',
+  },
+  {
+    key: BORDER,
+    src: 'assets/images/border.png',
+    type: 'IMAGE',
+  },
+  {
+    key: PORTAL_LAYER,
+    src: 'assets/images/portal_layer.png',
+    type: 'IMAGE',
+  },
+  {
+    key: SPACE_BG,
+    src: 'assets/images/space_bg.png',
     type: 'IMAGE',
   },
   {
